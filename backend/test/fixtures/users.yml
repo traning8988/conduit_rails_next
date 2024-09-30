@@ -1,0 +1,11 @@
+# test/fixtures/users.yml
+one:
+  username: "TestUser1"
+  email: "test1@example.com"
+  password_digest: <%= BCrypt::Password.create('password') %>  # bcryptでハッシュ化したパスワード
+
+two:
+  username: "TestUser2"
+  email: "test2@example.com"
+  password_digest: <%= BCrypt::Password.create('password') %>  # bcryptでハッシュ化したパスワード
+

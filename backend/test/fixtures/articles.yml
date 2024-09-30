@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: "My first article"
+  description: "This is a description"
+  body: "This is the body of the article"
+
+two:
+  title: "Another article"
+  description: "This is another description"
+  body: "This is the body of another article"
