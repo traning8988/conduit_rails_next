@@ -2,7 +2,7 @@
 FROM node:20
 
 # 作業ディレクトリを作成
-WORKDIR /myapp
+WORKDIR /app
 
 # 依存関係をインストール
 COPY package.json yarn.lock ./
