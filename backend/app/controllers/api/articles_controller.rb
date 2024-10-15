@@ -31,9 +31,8 @@ module Api
 
     def destroy
       @article.destroy
-      render json: { message:'Article successfully deleted' }, status: :ok
+      render json: { message: 'Article successfully deleted' }, status: :ok
     end
-
 
   private
     def article_params
